@@ -84,11 +84,11 @@
 
     <!-- Presentación -->
     <section id="presentacion" class="d-none d-sm-block">
-        <h2 class="text-center">¿QUIÉNES SOMOS?</h2>
+        <h2 class="text-center my-5">¿QUIÉNES SOMOS?</h2>
         <div class="container border-top">
-            <div class="row">
+            <div class="row py-5">
                 <div class="col-12 col-sm-4">
-                    <i class="fa-solid fa-plane bg-cyan d-block text-center"></i>
+                    <i class="fa-solid fa-plane bg-cyan d-block text-center fa-3x py-1"></i>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
@@ -97,10 +97,10 @@
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
-                    <i class="fa-solid fa-mountain bg-cyan d-block text-center"></i>
+                    <i class="fa-solid fa-mountain bg-cyan d-block text-center fa-3x py-1"></i>
                 </div>
                 <div class="col-12 col-sm-4">
-                    <i class="fa-solid fa-route bg-cyan d-block text-center"></i>
+                    <i class="fa-solid fa-route bg-cyan d-block text-center fa-3x py-1"></i>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
@@ -111,9 +111,9 @@
 
     <!-- Destacados -->
     <section id="destacados">
-        <h2 class="text-center">DESTACADOS</h2>
+        <h2 class="text-center my-5">DESTACADOS</h2>
         <div class="container border-top">
-            <div class="row">
+            <div class="row my-5 gy-5">
                 <div class="col-12 col-sm-6 col-md-3">
                     <div class="card h-100">
                         <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
@@ -160,34 +160,36 @@
 
     <!-- Contacto -->
     <section id="contacto">
-        <h2 class="text-center">CONTACTO</h2>
-        <form class="text-start">
-            <div>
-                <label for="nombre" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="nombre" placeholder="Nombre">
-            </div>
-            <div>
-                <label for="asunto" class="form-label fw-bold">Asunto</label>
-                <input type="text" class="form-control" id="asunto" placeholder="Asunto">
-            </div>
-            <div>
-                <label for="mensaje" class="form-label fw-bold">Mensaje</label>
-                <textarea class="form-control" id="mensaje" rows="6"></textarea>
-            </div>
-            <div class="text-end">
-                <button type="submit" class="btn btn-cyan">Enviar</button>
-            </div>
-        </form>
+        <h2 class="text-center my-5">CONTACTO</h2>
+        <div class="container border-top">
+            <form class="text-start my-5">
+                <div>
+                    <label for="nombre" class="form-label mt-3">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                </div>
+                <div>
+                    <label for="asunto" class="form-label mt-3">Asunto</label>
+                    <input type="text" class="form-control" id="asunto" placeholder="Asunto">
+                </div>
+                <div>
+                    <label for="mensaje" class="form-label mt-3">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="6"></textarea>
+                </div>
+                <div class="text-start mt-3">
+                    <button type="submit" class="btn btn-cyan">Enviar</button>
+                </div>
+            </form>
+        </div>
     </section>
 
     <!-- Footer -->
     <footer class="bg-cyan d-flex justify-content-evenly align-items-center p-3">
         <a href="#" class="link-light text-decoration-none">VIAJES CHILE</a>
         <div>
-            <a href="https://github.com/" target="_blank" class="link-light"><i class="fa-brands fa-square-github"></i></a>
-            <a href="https://www.linkedin.com/" target="_blank" class="link-light"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://twitter.com/" target="_blank" class="link-light"><i class="fa-brands fa-square-twitter"></i></a>
-            <a href="https://www.facebook.com/" target="_blank" class="link-light"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="https://github.com/" target="_blank" class="link-light px-1"><i class="fa-brands fa-square-github"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank" class="link-light px-1"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com/" target="_blank" class="link-light px-1"><i class="fa-brands fa-square-twitter"></i></a>
+            <a href="https://www.facebook.com/" target="_blank" class="link-light px-1"><i class="fa-brands fa-square-facebook"></i></a>
         </div>
     </footer>
 
@@ -196,7 +198,6 @@
 
     <!-- JQuery 3.7.0 -->
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-
     <script src="assets/js/script.js"></script>
 </body>
 </html>
