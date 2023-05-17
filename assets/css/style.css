@@ -25,9 +25,14 @@ body {
     --bs-btn-active-border-color: var(--bs-white);
   }
 
+.tooltip-light {
+    --bs-tooltip-bg: var(--bs-white);
+    --bs-tooltip-color: var(--bs-black);
+}
+
 /* Navbar */
 
-nav a {
+.text-shadow {
     text-shadow: 2px 2px 4px black;
 }
 
