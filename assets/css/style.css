@@ -3,3 +3,50 @@
 body {
     font-family: 'Raleway', sans-serif;
 }
+
+/* Colores */
+
+.bg-cyan {
+    background-color: #0dcaf0;
+}
+
+.btn-cyan {
+    --bs-btn-font-weight: 400;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: #0dcaf0;
+    --bs-btn-border-color: #0dcaf0;
+    --bs-btn-border-radius: .5rem;
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #0dcaf0;;
+    --bs-btn-hover-border-color: #0dcaf0;
+    --bs-btn-focus-shadow-rgb: #0dcaf0;
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #0dcaf0;
+    --bs-btn-active-border-color: var(--bs-white);
+  }
+
+/* Navbar */
+
+nav a {
+    text-shadow: 2px 2px 4px black;
+}
+
+/* Carousel */
+
+.carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    height: 50vh;
+    overflow: hidden;
+}
+
+.carousel-item .align-img-top {
+    object-position: top;
+}
+
+/* Cards */
+
+.card img {
+    height: 30vh;
+    object-fit: cover;
+}
